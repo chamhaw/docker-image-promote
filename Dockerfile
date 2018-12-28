@@ -1,4 +1,4 @@
-# docker build --rm -f docker/Dockerfile -t plugins/docker .
+# docker build --rm=true -t plugins/image-promote .
 
 FROM docker:18.03.0-ce-dind
 
